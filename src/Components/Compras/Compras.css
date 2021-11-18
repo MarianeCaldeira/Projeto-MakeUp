@@ -1,0 +1,69 @@
+#principal {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#compras {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 50px;
+    text-shadow:
+    -2px -2px 2px rgb(248, 117, 117); 
+}
+
+#baixo {
+    width: 900px;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    margin: 30px auto;
+    text-align: center;
+    align-items: center;
+}
+
+#pessoal {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nome {
+    margin-top: 20px;
+}
+
+#nome1 {
+    width: 300px;
+    margin-left: 45px;
+}
+
+#endereco1 {
+    width: 300px;
+    margin-left: 10px;
+}
+
+#email1 {
+    width: 300px;
+    margin-left: 125px;
+}
+
+.botao{
+    padding: 15px;
+}
+
+#aviso {
+    color: red;
+    margin-left: 300px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.menos, .mais {
+    background-color: transparent;
+    border: none;
+}

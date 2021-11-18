@@ -1,0 +1,125 @@
+  .titulo {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow:
+    -2px -2px 2px rgb(248, 117, 117);    
+  }
+
+  .container {
+    max-width: 75vw;
+  }
+
+  .carousel {
+    margin-top: 20px !important;
+  }
+
+  .container .carousel {
+    text-align: center;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .container .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .buttons {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .container .carousel .item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container .carousel .item {
+    height: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .carousel .item button {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .name, .oldPrice {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .container .carousel .item .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #1380b6;
+  }
+  
+  .container .carousel .item .oldPrice {
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    flex-grow: 1;
+    color: red;
+  }
+  
+  .container .carousel .item .price {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(238, 121, 140);
+  }
+
+  .setas {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .left, .right {
+    border: 0px;
+    color: rgb(238, 121, 140);
+    background-color: white;
+  }
+
+  .container .buttons {
+    width: 100%;
+    text-align: center;
+  }
+  .container .buttons button {
+    background-color: transparent;
+    border: 1px solid black ;
+    
+  }
+  .container .buttons button:first-child {
+    transform: rotate(180deg);
+  }
+
+.comprar{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(248, 117, 117);
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.carousel{
+  margin-top: 20px;
+}
+
+.rodar {
+  text-align: center;
+  margin-top: 22%;
+  margin-bottom: 22%;
+}

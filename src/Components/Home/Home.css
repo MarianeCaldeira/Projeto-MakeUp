@@ -1,0 +1,36 @@
+.home {
+    background: url('../../Assets/home.jpg') no-repeat center center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    gap: 1rem;
+}
+
+.welcome {
+    font-family: 'Nunito', georgia;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    text-align: center;
+    font-size: 40px;
+    text-shadow:
+    -2px -2px 2px rgb(248, 117, 117);
+}
+
+.intro {
+    font-family: 'Nunito', georgia;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+#insta, #face, #wpp {
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.contatos {
+    text-align: center;
+    margin-top: -5rem;
+}

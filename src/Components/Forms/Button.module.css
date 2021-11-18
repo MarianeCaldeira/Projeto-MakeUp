@@ -1,0 +1,24 @@
+.button {
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  background: rgb(238, 46, 78);
+  color: #ffffff;
+  min-width: 6.5rem;
+  min-height: 2rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+.button:link,
+.button:hover,
+.button:focus {
+  color: white;
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(248, 146, 163), 0 0 0 4px rgb(248, 146, 163);
+  text-decoration: none !important;
+}

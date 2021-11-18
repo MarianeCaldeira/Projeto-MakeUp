@@ -1,0 +1,20 @@
+.footer {
+  background: rgb(238, 121, 140);
+  padding: 1.5rem 1rem 0 1rem;
+  height: 8rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer > p {
+  margin-top: 0.2rem;
+  font-size: 15px;
+}
+
+@media (max-width: 414px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
